@@ -25,8 +25,8 @@ jobs:
     runs-on: ubuntu-latest
     env:
       # NEED TO BE CONFIGURED EACH PROJECT
-      UPSTREAM_REPO: " monosans/pyromark"
-      BRANCH: "master"
+      UPSTREAM_REPO: "monosans/pyromark"
+      BRANCH: "main"
       RUNNER_DISPATCH_TIMEOUT: 3600 # 1 hour
       FILTER_DISPATCH_TIMEOUT: 600 # 10 minutes
       MAX_CONCURRENT: 8
